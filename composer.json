@@ -1,0 +1,25 @@
+{
+  "name": "johnnymast/algorithms",
+  "description": "My own collection class",
+  "require-dev": {
+    "pestphp/pest": "^2.28"
+  },
+  "autoload": {
+    "psr-4": {
+      "JM\\Algorithms\\": "src/",
+      "JM\\Algorithms\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Johnny Mast",
+      "email": "mastjohnny@gmail.com"
+    }
+  ],
+  "require": {},
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
